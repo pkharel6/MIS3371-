@@ -1,0 +1,113 @@
+/* <!--
+Program name: homework2.css
+Author: Prem Kharel
+Date created: 03/o2/2026
+Date last edited: 03/25/2026
+Version: 1.0
+Description: This is a styling for the patient regestration form named homework2.html.
+--> */
+
+td label{
+    width: 100px;
+}
+
+#time{
+    position: absolute;
+
+}
+
+body{
+    background-color: aqua;
+}
+img{
+    width: 30vmin;
+   display: flex;
+    border-radius:100px;
+    margin: 0px 80px 0px 100px;
+}
+
+header{
+    color: white;
+    background-color: green;
+    padding-bottom: 19px;
+    text-align:center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    
+}
+footer{
+     color: white;
+    background-color: green;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+#fimg{
+    width: 1in;
+    align-items: center;
+    
+    margin: 10px 200px 7px 20px;
+}
+
+.name{
+    display: flex;
+   width: 100;
+      gap: 5px;
+      white-space: nowrap;
+}
+.all{
+    display: flex;
+    white-space: nowrap;
+    gap: 6px;
+
+}
+#city{
+    padding-right: 70px;
+    
+}
+#sym{
+    width: 4in;
+    height: 1in;
+   
+}
+#dob{
+    padding-right: 15px;
+}
+#uid{
+    margin-left: 13px;
+}
+#btn{
+    color: blue;
+    background-color: rgba(240, 162, 5, 0.968);
+}
+#btn:hover{
+    background-color: white;
+    border-color: rgb(221, 9, 27);
+}
+#sbtn{
+    background-color: yellow;
+    color: rgb(64, 4, 245);
+}
+#sbtn:hover{
+    color: white;
+    background-color: green;
+    border-style: double;
+}
+#fspace{
+    margin-right: 20em;
+}
+#nameerr{
+    background-color: red;
+}
+#Valuetable{
+    background-color: blue;
+    color: aqua;
+}
+#pvalidation{
+    background-color: red;
+    animation:backwards;
+}
